@@ -1,0 +1,10 @@
+package br.com.ecommerce.carrinhocompras.service;
+
+import br.com.ecommerce.carrinhocompras.model.Carrinho;
+
+public interface CarrinhoService {
+
+	Carrinho salvar(Carrinho carrinho);
+	
+	<Optional>Carrinho findById(Long id);
+}

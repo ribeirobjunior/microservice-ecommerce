@@ -1,0 +1,33 @@
+package br.com.ecommerce.carrinhocompras.controller;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.bind.annotation.RestController;
+
+import br.com.ecommerce.carrinhocompras.model.Carrinho;
+import br.com.ecommerce.carrinhocompras.service.CarrinhoService;
+
+@RestController
+@RequestMapping("/carrinho")
+public class CarrinhoController {
+
+	@Autowired
+	private CarrinhoService carrinhoService;
+	
+	@PostMapping("/salvar")
+	public Carrinho salvar(@RequestPart(name = "carrinho", required = true) Carrinho carrinho) {
+		return carrinhoService.salvar(carrinho);
+	}
+	
+	@GetMapping("/buscar/{id}")
+	public Optional<Carrinho> findById(@PathVariable Long id){
+		return carrinhoService.findById(id);
+	}
+	
+}

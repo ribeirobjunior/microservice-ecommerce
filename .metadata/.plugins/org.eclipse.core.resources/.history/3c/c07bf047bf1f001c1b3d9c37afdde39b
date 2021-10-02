@@ -1,0 +1,38 @@
+package br.com.ecommerce.carrinhocompras.service.impl;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestPart;
+
+import br.com.ecommerce.carrinhocompras.model.Carrinho;
+import br.com.ecommerce.carrinhocompras.model.Item;
+import br.com.ecommerce.carrinhocompras.service.CarrinhoService;
+
+@Service
+public class CarrinhoServiceImpl implements CarrinhoService {
+	
+	@Autowired
+	private CarrinhoService carrinhoService;
+
+	public Carrinho salvar(@PathVariable("id") Long carrinhoId , @RequestPart Item item) {
+		Optional<Carrinho> carrinhoParaCarregar = carrinhoService.findById(carrinhoId);
+		Carrinho carrinho;
+		if(carrinhoParaCarregar.equals(Optional.empty())) {
+			carrinho = new Carrinho();
+		}else {
+			carrinho = carrinhoParaCarregar.get();
+		}
+		carrinho.getItens().add(item);
+		
+		return carrinhoService.salvar(carrinho);
+	}
+
+	@Override
+	public Optional<Carrinho> findById(Long id) {
+		return carrinhoService.findById(id);
+	}
+
+}

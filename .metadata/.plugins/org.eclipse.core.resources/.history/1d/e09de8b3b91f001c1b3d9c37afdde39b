@@ -1,0 +1,11 @@
+package br.com.ecommerce.catalogoprodutos.service;
+
+import br.com.ecommerce.catalogoprodutos.model.Produto;
+
+public interface ProdutoService {
+	
+	Produto salvarProduto(Produto produto);
+	
+	Produto findById(Long id);
+
+}
