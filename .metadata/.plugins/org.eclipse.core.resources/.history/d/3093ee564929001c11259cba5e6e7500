@@ -1,0 +1,22 @@
+package br.com.ecommerce.catalogoprodutos.config;
+
+import org.springframework.context.annotation.Configuration;
+
+import springfox.documentation.builders.ApiInfoBuilder;
+import springfox.documentation.service.ApiInfo;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+@Configuration
+@EnableSwagger2
+public class SwaggerConfig {
+
+	private ApiInfo buildingApiInfo() {
+		return new ApiInfoBuilder()
+				.title("CArrinho de Compras")
+				.description("API para cadastro e consulta dos itens contidos no carrinho de compras")
+				.version("1.0.0-SNAPSHOT")
+				.build();
+				
+	}
+	
+}

@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Projetos_SpringBoot\E-Commerce\gateway"/>
 			<item value="C:\Projetos_SpringBoot\E-Commerce\service-discovery"/>
 			<item value="C:\Projetos_SpringBoot\E-Commerce\config-server"/>
 			<item value="C:\Projetos_SpringBoot\E-Commerce\carrinho-compras"/>
