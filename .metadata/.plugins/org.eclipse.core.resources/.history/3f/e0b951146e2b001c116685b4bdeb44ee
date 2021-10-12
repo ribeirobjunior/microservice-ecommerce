@@ -1,0 +1,36 @@
+package br.com.ecommerce.catalogoprodutos;
+
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.MvcResult;
+import org.springframework.test.web.servlet.RequestBuilder;
+
+import br.com.ecommerce.catalogoprodutos.controller.ProdutoController;
+import br.com.ecommerce.catalogoprodutos.model.Produto;
+
+@WebMvcTest
+@ExtendWith(SpringExtension.class )
+public class TesteUnitSalvarProduto {
+	
+	@Autowired
+	private MockMvc mvc;
+	
+	@Test
+	public void testUnit() throws Exception {
+		
+		RequestBuilder requisicao = post("/salvar");
+		MvcResult resultado = mvc.perform(requisicao).andReturn();
+		
+		ProdutoController controller = new ProdutoController();
+		Produto produtoParaSalvar = new Produto("PS5", 4.600);
+		
+		controller.salvar(produtoParaSalvar);
+		
+	
+	}
+
+}

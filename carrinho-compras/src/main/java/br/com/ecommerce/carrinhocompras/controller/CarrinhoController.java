@@ -1,5 +1,6 @@
 package br.com.ecommerce.carrinhocompras.controller;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,13 +12,18 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.ecommerce.carrinhocompras.model.Carrinho;
 import br.com.ecommerce.carrinhocompras.model.Item;
+import br.com.ecommerce.carrinhocompras.model.Produto;
 import br.com.ecommerce.carrinhocompras.service.CarrinhoService;
+import br.com.ecommerce.carrinhocompras.service.ConsumirAPiProduto;
 
 @RestController
 public class CarrinhoController {
 
 	@Autowired
 	private CarrinhoService carrinhoService;
+	
+	@Autowired
+	private ConsumirAPiProduto consumirAPiProduto;
 	
 	@PostMapping("/adicionaraocarrinho/{id}")
 	public Carrinho adicionarAoCarrinho(@PathVariable("id") Long carrinhoId, @RequestPart(name = "item", required = true) Item item) {
@@ -36,6 +42,12 @@ public class CarrinhoController {
 	@GetMapping("/buscar/{id}")
 	public Optional<Carrinho> findById(@PathVariable("id") Long id){
 		return carrinhoService.findById(id);
+	}
+	
+	
+	@GetMapping("/listarprodutos")
+	public List<Produto> buscarProduto(){
+		return consumirAPiProduto.retornaProdutos();
 	}
 	
 }

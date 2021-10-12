@@ -1,3 +1,0 @@
-spring.application.name=application-carrinho
-spring.cloud.config.uri=http://localhost:8083
-

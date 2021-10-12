@@ -1,0 +1,20 @@
+package br.com.ecommerce.catalogoprodutos;
+
+import org.junit.jupiter.api.Test;
+
+import br.com.ecommerce.catalogoprodutos.controller.ProdutoController;
+import br.com.ecommerce.catalogoprodutos.model.Produto;
+
+public class TesteUnitSalvarProduto {
+	
+	@Test
+	public void testUnit() {
+		
+		ProdutoController controller = new ProdutoController();
+		Produto produtoParaSalvar = new Produto(null, "PS5", 4.600);
+		
+		Produto resultado = controller.salvar(produtoParaSalvar);
+		
+	}
+
+}

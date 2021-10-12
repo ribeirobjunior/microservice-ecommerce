@@ -1,2 +1,0 @@
-spring.application.name=application-produto
-sspring.config.import=configserver:http://localhost:8083

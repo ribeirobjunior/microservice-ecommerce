@@ -1,5 +1,0 @@
-package br.com.ecommerce.catalogoprodutos.repository;
-
-public interface ProdutoRepository {
-
-}

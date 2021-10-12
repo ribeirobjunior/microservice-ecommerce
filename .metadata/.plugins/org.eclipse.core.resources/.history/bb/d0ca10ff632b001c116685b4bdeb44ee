@@ -1,0 +1,8 @@
+package br.com.ecommerce.carrinhocompras.service;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name="produto", url = "http://localhost:8080/produto/buscar/{id}")
+public interface ConsumirAPiProduto {
+
+}

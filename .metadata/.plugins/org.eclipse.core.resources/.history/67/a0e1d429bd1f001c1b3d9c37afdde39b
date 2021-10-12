@@ -1,8 +1,0 @@
-package br.com.ecommerce.carrinhocompras.service;
-
-public interface CarrinhoService {
-
-	Carrinho salvar(Carrinho carrinho);
-	
-	<Optional>Carrinho findById(Long id;)
-}

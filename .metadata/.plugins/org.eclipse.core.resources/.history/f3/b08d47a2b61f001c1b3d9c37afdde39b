@@ -1,5 +1,0 @@
-package br.com.ecommerce.catalogoprodutos.service.impl;
-
-public class ProdutoServiceImpl {
-
-}

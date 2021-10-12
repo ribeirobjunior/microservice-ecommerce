@@ -19,6 +19,7 @@
   <path value="C:/Users/Sete/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/yaml/snakeyaml/1.28/snakeyaml-1.28.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.12/istack-commons-runtime-3.0.12.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.0.4/spring-cloud-openfeign-core-3.0.4.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/slf4j/jul-to-slf4j/1.7.32/jul-to-slf4j-1.7.32.jar"/>
   <path value="C:/Users/Sete/.m2/repository/net/minidev/json-smart/2.4.7/json-smart-2.4.7.jar"/>
@@ -26,6 +27,7 @@
   <path value="C:/Users/Sete/.m2/repository/org/springframework/plugin/spring-plugin-core/1.2.0.RELEASE/spring-plugin-core-1.2.0.RELEASE.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/commons-fileupload/commons-fileupload/1.4/commons-fileupload-1.4.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar"/>
   <path value="C:/Users/Sete/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.12.5/jackson-module-parameter-names-2.12.5.jar"/>
@@ -67,6 +69,7 @@
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.5.5/spring-boot-starter-tomcat-2.5.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/cloud/spring-cloud-starter-config/3.0.5/spring-cloud-starter-config-3.0.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/projectreactor/addons/reactor-extra/3.4.5/reactor-extra-3.4.5.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/io/github/openfeign/form/feign-form-spring/3.8.0/feign-form-spring-3.8.0.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot-starter/2.5.5/spring-boot-starter-2.5.5.jar"/>
@@ -74,9 +77,11 @@
   <path value="C:/Users/Sete/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
   <path value="C:/Users/Sete/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/org/springframework/cloud/spring-cloud-starter-openfeign/3.0.4/spring-cloud-starter-openfeign-3.0.4.jar"/>
   <path value="C:/Users/Sete/.m2/repository/javax/ws/rs/jsr311-api/1.1.1/jsr311-api-1.1.1.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/spring-orm/5.3.10/spring-orm-5.3.10.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/spring-aop/5.3.10/spring-aop-5.3.10.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/io/github/openfeign/form/feign-form/3.8.0/feign-form-3.8.0.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.5.5/spring-boot-starter-jdbc-2.5.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/springfox/springfox-spring-web/2.9.2/springfox-spring-web-2.9.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.2/junit-jupiter-engine-5.7.2.jar"/>
@@ -108,6 +113,7 @@
   <path value="C:/Users/Sete/.m2/repository/net/minidev/accessors-smart/2.4.7/accessors-smart-2.4.7.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/springfox/springfox-schema/2.9.2/springfox-schema-2.9.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.12.5/jackson-datatype-jdk8-2.12.5.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/io/github/openfeign/feign-core/10.12/feign-core-10.12.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.5.5/spring-boot-starter-logging-2.5.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/spring-context-support/5.3.10/spring-context-support-5.3.10.jar"/>
@@ -128,6 +134,7 @@
   <path value="C:/Users/Sete/.m2/repository/org/springframework/cloud/spring-cloud-config-client/3.0.5/spring-cloud-config-client-3.0.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/springfox/springfox-core/2.9.2/springfox-core-2.9.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/io/springfox/springfox-swagger-ui/2.9.2/springfox-swagger-ui-2.9.2.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/commons-io/commons-io/2.2/commons-io-2.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot/2.5.5/spring-boot-2.5.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/spring-context/5.3.10/spring-context-5.3.10.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.5.5/spring-boot-starter-web-2.5.5.jar"/>
@@ -153,6 +160,7 @@
   <path value="C:/Users/Sete/.m2/repository/org/codehaus/jettison/jettison/1.4.0/jettison-1.4.0.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/xmlunit/xmlunit-core/2.8.2/xmlunit-core-2.8.2.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/netflix/eureka/eureka-client/1.10.16/eureka-client-1.10.16.jar"/>
+  <path value="C:/Users/Sete/.m2/repository/io/github/openfeign/feign-slf4j/10.12/feign-slf4j-10.12.jar"/>
   <path value="C:/Users/Sete/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.12.5/jackson-datatype-jsr310-2.12.5.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/3.0.4/spring-cloud-netflix-eureka-client-3.0.4.jar"/>
   <path value="C:/Users/Sete/.m2/repository/org/glassfish/jaxb/txw2/2.3.5/txw2-2.3.5.jar"/>
@@ -169,9 +177,9 @@
  <validation>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="23" name="%0" offset="2400" path="%1"/>
-   <linked-el length="23" name="%2" offset="2400" path="%1"/>
-   <linked-el length="23" name="%3" offset="2400" path="%1"/>
+   <linked-el length="23" name="%0" offset="2536" path="%1"/>
+   <linked-el length="23" name="%2" offset="2536" path="%1"/>
+   <linked-el length="23" name="%3" offset="2536" path="%1"/>
   </el>
  </validation>
  <aliases>

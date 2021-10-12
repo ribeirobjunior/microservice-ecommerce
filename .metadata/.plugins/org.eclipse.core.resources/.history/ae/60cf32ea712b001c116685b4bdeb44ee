@@ -1,0 +1,19 @@
+package br.com.ecommerce.catalogoprodutos.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+
+import br.com.ecommerce.catalogoprodutos.model.Produto;
+
+@Qualifier("ProdutoServiceImpl")
+public interface ProdutoService {
+	
+	Produto salvarProduto(Produto produto);
+	
+	Optional<Produto> findById(Long id);
+	
+	List<Produto> findAll();
+
+}

@@ -1,0 +1,22 @@
+package br.com.ecommerce.catalogoprodutos;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+import br.com.ecommerce.catalogoprodutos.controller.ProdutoController;
+import br.com.ecommerce.catalogoprodutos.model.Produto;
+
+public class TesteUnitSalvarProduto {
+	
+	@Test
+	public void testUnit() {
+		
+		ProdutoController controller = new ProdutoController();
+		
+		controller.salvar(new Produto("PS5", 4.600));
+		
+	
+	}
+
+}

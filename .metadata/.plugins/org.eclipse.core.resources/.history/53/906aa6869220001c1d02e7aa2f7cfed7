@@ -1,3 +1,0 @@
-spring.application.name= service-discovery
-spring.config.import=optional:configserver:http://localhost:8083
- 
